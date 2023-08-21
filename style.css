@@ -42,8 +42,9 @@ body * {
 }
 
 #container { /*nao defino uma altura fixa na caixa, pq ela vai aumentando quando eu for colocando as coisas*/ 
-    width: 360px;
-    /*margin: top left/right bottom;*/
+    width: 100%; 
+    max-width: 588px; /*quando chegar nesse tamanho maximo vai parar de crescer*/
+    /* margin: top left/right bottom; */
     margin: 56px auto 0px;
     padding: 0 24px; /*top/bottom  left/right*/
 }
